@@ -1,0 +1,36 @@
+{
+  "name": "kvothe/userbars",
+  "description": "Puts 5 randomly selected userbars under each post.",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta.8"
+  },
+  "authors": [
+    {
+      "name": "Kvothe",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kvothe\\Userbars\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Userbars",
+      "icon": {
+        "name": "fas fa-grin-stars",
+        "backgroundColor": "#800080",
+        "color": "#ffff00"
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
